@@ -22,4 +22,6 @@ try:
       print "Press the button (CTRL-C to exit)"
 
 except KeyboardInterrupt:
-  GPIO.cleanup()
+  print "except!"
+ 
+GPIO.cleanup()
